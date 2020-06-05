@@ -1,0 +1,45 @@
+{
+  "name": "grunt-transifex-wordpress",
+  "version": "1.0.0",
+  "private": true,
+  "directories": {
+    "js": "./assets/js",
+    "sass": "",
+    "css": "",
+    "build": "./build",
+    "languages": "./languages"
+  },
+  "pot": {
+    "type": "wp-theme",
+    "src": "style.css",
+    "header": {
+      "bugs": "https://wp-translations.pro/",
+      "team": "WP-Translations <wpt@wp-translations.pro>",
+      "last_translator": "WP-Translations <wpt@wp-translations.pro>"
+    }
+  },
+  "constant": {
+    "core": "et-core",
+    "builder": "et_builder",
+    "divi": "Divi",
+    "locale": "fr_FR"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-checktextdomain": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-rename": "*",
+    "grunt-exec": "*",
+    "grunt-newer": "*",
+    "grunt-notify": "*",
+    "grunt-potomo": "*",
+    "grunt-text-replace": "*",
+    "grunt-wp-css": "*",
+    "grunt-wp-i18n": "*",
+    "grunt-wp-readme-to-markdown": "*",
+    "load-grunt-config": "*",
+    "load-grunt-tasks": "*"
+  }
+}
