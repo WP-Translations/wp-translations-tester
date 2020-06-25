@@ -38,7 +38,7 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Test Slack team notifications', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Test Slack TM notifications', 'wp-translations-tester' ); ?></p>
 
-    <p><?php esc_html_e( 'Testing WPT App’s notifications', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Testing WPT App notifications', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
