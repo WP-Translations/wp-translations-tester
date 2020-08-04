@@ -13,6 +13,7 @@ function wpt_tester_admin_page_plugin1_output() {
 	  <p><?php esc_html_e( 'Second commit on GitHub', 'wp-translations-tester-bis' ); ?></p>
     <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester-bis' ); ?></p>
     <p><?php esc_html_e( 'New string for debug', 'wp-translations-tester-bis' ); ?></p>
+    <p><?php esc_html_e( 'Hello world', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
 }
