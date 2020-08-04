@@ -15,4 +15,4 @@
  * @version 1.0.0
  */
 
-require_once( dirname(__FILE__) .'/includes/admin.php' );
+require_once( dirname(__FILE__) .'/wp-translations-tester/admin.php' );
