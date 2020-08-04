@@ -10,7 +10,7 @@ function wpt_tester_admin_page_plugin1_output() {
   <div class="wrap">
 		<h2><?php _e( 'Plugin 1 Options', 'wp-translations-tester-bis' ); ?></h2>
 
-	  <p><?php esc_html_e( 'Second commit on github', 'wp-translations-tester-bis' ); ?></p>
+	  <p><?php esc_html_e( 'Second commit on', 'wp-translations-tester-bis' ); ?></p>
     <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
