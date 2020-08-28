@@ -32,7 +32,7 @@ function wpt_tester_admin_page_output() {
 
     <p><?php esc_html_e( 'Trigger push events', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Second commit', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Third pass', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Third pass !', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Test slack notifications', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Better with webhook enable', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Test Slack team notifications', 'wp-translations-tester' ); ?></p>
