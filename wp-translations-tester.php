@@ -12,7 +12,7 @@
  * @package WPTT
  * @category Core
  * @author Sadler Jerome
- * @version 1.0.3
+ * @version 1.0.2
  */
 
 require_once( dirname(__FILE__) .'/wp-translations-tester/admin.php' );
