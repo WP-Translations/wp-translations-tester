@@ -28,7 +28,7 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'The resource has been updated', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Delete this estimate', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'GitLab CI rocks !',  'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Push Resource', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Push Resource!', 'wp-translations-tester' ); ?></p>
 
     <p><?php esc_html_e( 'Trigger push events', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Second commit', 'wp-translations-tester' ); ?></p>
