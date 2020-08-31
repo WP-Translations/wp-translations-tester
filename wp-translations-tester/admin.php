@@ -40,6 +40,7 @@ function wpt_tester_admin_page_output() {
 
     <p><?php esc_html_e( 'Testing App notifications', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester-bis' ); ?></p>
+    <p><?php esc_html_e( 'Another string', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
 }
