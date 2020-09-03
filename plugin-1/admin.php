@@ -14,6 +14,7 @@ function wpt_tester_admin_page_plugin1_output() {
     <p><?php esc_html_e( 'Delete License', 'wp-translations-tester-bis' ); ?></p>
     <p><?php esc_html_e( 'Activate', 'wp-translations-tester-bis' ); ?></p>
     <p><?php esc_html_e( 'Deactivate', 'wp-translations-tester-bis' ); ?></p>
+		<p><?php esc_html_e( 'Margin', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
 }
