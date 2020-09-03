@@ -63,7 +63,7 @@ class WPT_Tester_Language_Packs {
 					$value->translations = [];
 				}
 
-				$translations = $this->get_translations( $this->type, $this->slug, $this->api_url );
+				$translations = (array) $this->get_translations( $this->type, $this->slug, $this->api_url );
 
 				if ( ! isset( $translations['translations'] ) ) {
 					return $value;
