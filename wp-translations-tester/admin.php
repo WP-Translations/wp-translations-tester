@@ -22,25 +22,6 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Padding', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Margin', 'wp-translations-tester' ); ?></p>
 
-    <p><?php esc_html_e( 'Delete previous version', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Switch to previous version', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Reset this version', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'The resource has been updated', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Delete this estimate', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'GitLab CI rocks!',  'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Push Resource!', 'wp-translations-tester' ); ?></p>
-
-    <p><?php esc_html_e( 'Trigger push events', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Second commit', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Third pass', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Test slack notifications', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Better with webhook enable', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Test Slack team notifications', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Test Slack TM notifications', 'wp-translations-tester' ); ?></p>
-
-    <p><?php esc_html_e( 'Testing App notifications', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Another string', 'wp-translations-tester' ); ?></p>
   </div>
   <?php
 }

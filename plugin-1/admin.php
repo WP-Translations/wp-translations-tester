@@ -10,11 +10,10 @@ function wpt_tester_admin_page_plugin1_output() {
   <div class="wrap">
 		<h2><?php _e( 'Plugin 1 Options', 'wp-translations-tester-bis' ); ?></h2>
 
-	  <p><?php esc_html_e( 'Second commit on GitHub', 'wp-translations-tester-bis' ); ?></p>
-    <p><?php esc_html_e( 'Testing second textdomain', 'wp-translations-tester-bis' ); ?></p>
-    <p><?php esc_html_e( 'New string for testing', 'wp-translations-tester-bis' ); ?></p>
-    <p><?php esc_html_e( 'Hello world!', 'wp-translations-tester-bis' ); ?></p>
-    <p><?php esc_html_e( 'Ok for mono repo', 'wp-translations-tester-bis' ); ?></p>
+	  <p><?php esc_html_e( 'Save License', 'wp-translations-tester-bis' ); ?></p>
+    <p><?php esc_html_e( 'Delete License', 'wp-translations-tester-bis' ); ?></p>
+    <p><?php esc_html_e( 'Activate', 'wp-translations-tester-bis' ); ?></p>
+    <p><?php esc_html_e( 'Deactivate', 'wp-translations-tester-bis' ); ?></p>
   </div>
   <?php
 }
