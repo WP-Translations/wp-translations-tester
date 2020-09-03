@@ -20,7 +20,6 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Dashboard', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Visibility', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Padding', 'wp-translations-tester' ); ?></p>
-    <p><?php esc_html_e( 'Margin', 'wp-translations-tester' ); ?></p>
 
   </div>
   <?php
