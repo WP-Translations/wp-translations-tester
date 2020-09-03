@@ -15,6 +15,7 @@
  * @version 1.0.0
  */
 
+require_once( dirname(__FILE__) .'/inc/translations-updater.php' );
 require_once( dirname(__FILE__) .'/wp-translations-tester/admin.php' );
 
 function wp_translations_tester_init_t15s() {
