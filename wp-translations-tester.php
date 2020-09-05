@@ -5,14 +5,14 @@
  * Description: Test translations process
  * Author: WP-Translations
  * Author URI: https://wp-translations.pro
- * Version: 1.0.0
+ * Version: 1.1.1
  * Text Domain: wp-translations-tester
  * Domain Path: languages
  *
  * @package WPTT
  * @category Core
  * @author Sadler Jerome
- * @version 1.0.0
+ * @version 1.1.1
  */
 
 require_once( dirname(__FILE__) .'/inc/translations-updater.php' );
