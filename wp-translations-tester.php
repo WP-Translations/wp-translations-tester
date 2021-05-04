@@ -15,15 +15,38 @@
  * @version 1.1.1
  */
 
+define( 'WPT_TESTER_SLUG', 'wp-translations-tester' );
+
+
 require_once( dirname(__FILE__) .'/inc/translations-updater.php' );
 require_once( dirname(__FILE__) .'/wp-translations-tester/admin.php' );
 
 function wp_translations_tester_init_t15s() {
     if ( class_exists( 'WP_Translations_Tester_T15S' ) ) {
         $t15s_updater = new WP_Translations_Tester_T15S(
-            'wp-translations-tester',
+            WPT_TESTER_SLUG,
             'https://packages.translationspress.com/wp-translations/wp-translations-tester/packages.json'
         );
     }
 }
 add_action( 'init', 'wp_translations_tester_init_t15s' );
+
+
+add_filter( 'load_textdomain_mofile', 'my_custom_translation_file', 10, 2 );
+
+/*
+ * Replace 'textdomain' with your plugin's textdomain. e.g. 'hello-dolly'.
+ * Define your filename, such as: yourtranslationfile-en_GB.mo
+ * Define the location, for example: wp-content/languages/textdomain/yourtranslationfile-en_GB.mo
+ */
+function my_custom_translation_file( $mofile, $domain ) {
+
+  if ( WPT_TESTER_SLUG === $domain ) {
+    $locale = determine_locale();
+    $filename = WP_LANG_DIR . '/' .  WPT_TESTER_SLUG  . '/' . WPT_TESTER_SLUG . '-' . $locale . '.mo';
+    if ( file_exists( $filename ) ) {
+      $mofile  =$filename;
+    }
+  }
+  return $mofile;
+}
