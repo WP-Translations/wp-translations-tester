@@ -32,21 +32,20 @@ function wp_translations_tester_init_t15s() {
 add_action( 'init', 'wp_translations_tester_init_t15s' );
 
 
-add_filter( 'load_textdomain_mofile', 'my_custom_translation_file', 10, 2 );
 
 /*
- * Replace 'textdomain' with your plugin's textdomain. e.g. 'hello-dolly'.
- * Define your filename, such as: yourtranslationfile-en_GB.mo
- * Define the location, for example: wp-content/languages/textdomain/yourtranslationfile-en_GB.mo
+ * Search for custom translation file in WP_LANG_DIR/gravityforms
+ * if exist override translations from TranslationsPress
  */
-function my_custom_translation_file( $mofile, $domain ) {
+function support_custom_translation_file( $mofile, $domain ) {
 
-  if ( WPT_TESTER_SLUG === $domain ) {
-    $locale = determine_locale();
-    $filename = WP_LANG_DIR . '/' .  WPT_TESTER_SLUG  . '/' . WPT_TESTER_SLUG . '-' . $locale . '.mo';
+  if ( 'gravityforms' === $domain ) {
+    $locale   = determine_locale(); // WP 5+
+    $filename = WP_LANG_DIR . '/gravityforms/gravityforms-' . $locale . '.mo';
     if ( file_exists( $filename ) ) {
-      $mofile  =$filename;
+      $mofile = $filename;
     }
   }
   return $mofile;
 }
+add_filter( 'load_textdomain_mofile', 'support_custom_translation_file', 10, 2 );
