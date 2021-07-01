@@ -22,7 +22,6 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Padding', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Post', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'WebHook testing', 'wp-translations-tester' ); ?>
-		<p><?php esc_html_e( 'WebHook trigger', 'wp-translations-tester' ); ?>
   </div>
   <?php
 }
