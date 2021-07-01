@@ -30,22 +30,3 @@ function wp_translations_tester_init_t15s() {
     }
 }
 add_action( 'init', 'wp_translations_tester_init_t15s' );
-
-
-
-/*
- * Search for custom translation file in WP_LANG_DIR/gravityforms
- * if exist override translations from TranslationsPress
- */
-function support_custom_translation_file( $mofile, $domain ) {
-
-  if ( 'gravityforms' === $domain ) {
-    $locale   = determine_locale(); // WP 5+
-    $filename = WP_LANG_DIR . '/gravityforms/gravityforms-' . $locale . '.mo';
-    if ( file_exists( $filename ) ) {
-      $mofile = $filename;
-    }
-  }
-  return $mofile;
-}
-add_filter( 'load_textdomain_mofile', 'support_custom_translation_file', 10, 2 );
