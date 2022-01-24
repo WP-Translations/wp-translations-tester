@@ -16,6 +16,7 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Deactivate', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Install translations', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Actions', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Background', 'wp-translations-tester' ); ?></p>
 
     <p><?php esc_html_e( 'Settings', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Dashboard', 'wp-translations-tester' ); ?></p>
