@@ -20,6 +20,7 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'String', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Dashed', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Back', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'All Languages', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Settings', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Dashboard', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Visibility', 'wp-translations-tester' ); ?></p>
