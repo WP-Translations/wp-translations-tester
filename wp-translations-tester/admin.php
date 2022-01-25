@@ -41,6 +41,9 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Layout', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Work', 'wp-translations-tester' ); ?></p>
+
+
   </div>
   <?php
 }
