@@ -35,6 +35,7 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Adjust the link behavior', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Learn how to use the plugin', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'No results found', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Learn how to use the plugin', 'wp-translations-tester' ); ?></p>
 
 
   </div>
