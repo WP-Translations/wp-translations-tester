@@ -32,6 +32,7 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Propagation', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Async task', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Category', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Dashboard', 'wp-translations-tester' ); ?></p>
 
 
   </div>
