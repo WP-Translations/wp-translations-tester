@@ -39,6 +39,8 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Add Keyword', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Blockquotes', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Layout', 'wp-translations-tester' ); ?></p>
 
 
   </div>
