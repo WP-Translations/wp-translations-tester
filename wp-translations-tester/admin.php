@@ -30,6 +30,7 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'WebHook testing', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'WebHook trigger', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Propagation', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Async task', 'wp-translations-tester' ); ?></p>
 
 
   </div>
