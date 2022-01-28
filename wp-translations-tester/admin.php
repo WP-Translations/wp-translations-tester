@@ -56,6 +56,7 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Locator', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'String', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Signature', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Search', 'wp-translations-tester' ); ?></p>
 
 
   </div>
