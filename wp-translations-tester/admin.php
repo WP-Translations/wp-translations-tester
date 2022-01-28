@@ -52,6 +52,7 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Payload', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Token', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Path', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Project', 'wp-translations-tester' ); ?></p>
 
 
   </div>
