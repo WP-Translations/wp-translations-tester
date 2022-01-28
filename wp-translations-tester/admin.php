@@ -48,6 +48,8 @@ function wpt_tester_admin_page_output() {
 		<p><?php esc_html_e( 'Plane', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Words', 'wp-translations-tester' ); ?></p>
 		<p><?php esc_html_e( 'Menu', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Words', 'wp-translations-tester' ); ?></p>
+		<p><?php esc_html_e( 'Payload', 'wp-translations-tester' ); ?></p>
 
 
   </div>
