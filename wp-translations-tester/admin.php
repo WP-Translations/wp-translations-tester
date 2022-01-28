@@ -28,9 +28,7 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Padding', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Post', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Passphrase', 'wp-translations-tester' ); ?></p>
-
-
-
+    <p><?php esc_html_e( 'i18n', 'wp-translations-tester' ); ?></p>
   </div>
   <?php
 }
