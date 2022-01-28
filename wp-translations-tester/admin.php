@@ -27,36 +27,8 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'Visibility', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Padding', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Post', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'WebHook testing', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'WebHook trigger', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Propagation', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Async task', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Category', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Adjust the link behavior', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Learn how to use the plugin', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'No results found', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Add it by clicking on the blacklist.', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Add Keyword', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Blockquotes', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Content', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Layout', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Work', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Car', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'House', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Job', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Plane', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Words', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Menu', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Words', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Payload', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Token', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Path', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Project', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Locator', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'String', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Signature', 'wp-translations-tester' ); ?></p>
-		<p><?php esc_html_e( 'Search', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Passphrase', 'wp-translations-tester' ); ?></p>
+
 
 
   </div>
