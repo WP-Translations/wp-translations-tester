@@ -33,7 +33,7 @@ function wpt_tester_admin_page_output() {
    <p><?php esc_html_e(
 					sprintf(
 						/* translators: %d is a number of strings translations */
-						_n( '%d string translation updated.', '%d string translations updated.', $updated, 'polylang-pro' ),
+						_n( '%d string translation updated.', '%d string translations updated.', $updated, 'wp-translations-tester' ),
 						$updated
 					)
 				); ?></p>
