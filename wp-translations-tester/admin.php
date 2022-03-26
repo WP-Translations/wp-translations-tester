@@ -37,6 +37,8 @@ function wpt_tester_admin_page_output() {
 						$updated
 					)
 				); ?></p>
+
   </div>
   <?php
+  $message = _n( '%s form has been marked as inactive.', '%s forms have been marked as inactive.', 3, 'wp-translations-tester' );
 }
