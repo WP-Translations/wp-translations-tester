@@ -41,4 +41,10 @@ function wpt_tester_admin_page_output() {
   </div>
   <?php
   $message = _n( '%s form has been marked as inactive.', '%s forms have been marked as inactive.', 3, 'wp-translations-tester' );
+  $other = _n(
+    'The translation of the following string was not imported for security reasons:',
+    'The translation of the following strings were not imported for security reasons:',
+    2,
+    'wp-translations-tester'
+  );
 }
