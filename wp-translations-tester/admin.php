@@ -31,8 +31,11 @@ function wpt_tester_admin_page_output() {
     <p><?php esc_html_e( 'i18n', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Token', 'wp-translations-tester' ); ?></p>
     <p><?php esc_html_e( 'Originals', 'wp-translations-tester' ); ?></p>
-	  <p><?php esc_html_e( 'Translations', 'wp-translations-tester' ); ?></p>
-	  <p><?php esc_html_e( 'Margin', 'wp-translations-tester' ); ?></p>
+    <p><?php esc_html_e( 'Originals', 'wp-translations-tester' ); ?></p>
+	  <p><?php esc_html_e( 'Activated', 'wp-translations-tester' ); ?></p>
+	  <p><?php esc_html_e( 'Deactivated', 'wp-translations-tester' ); ?></p>
+	   <p><?php esc_html_e( 'Invalid', 'wp-translations-tester' ); ?></p>
+	   <p><?php esc_html_e( 'Updated', 'wp-translations-tester' ); ?></p>
    <p><?php esc_html_e(
 					sprintf(
 						/* translators: %d is a number of strings translations */
